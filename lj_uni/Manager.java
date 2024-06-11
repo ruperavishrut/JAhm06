@@ -1,12 +1,12 @@
-class Employee extends Member {
+class Manager extends Member {
     private double salary;
-    String specialization;
+    String department;
 
     // Constructor
-    public Employee(String name, int age, String phoneNumber, String address, double salary, String specialization) {
+    public Manager(String name, int age, String phoneNumber, String address, double salary, String department) {
         super(name, age, phoneNumber, address);
         this.salary = salary;
-        this.specialization = specialization;
+        this.department = department;
     }
 
     // Method to print salary
